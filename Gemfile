@@ -47,7 +47,7 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-gem "kiqr", path: "../"
+gem "kiqr", git: "https://github.com/kiqr/kiqr.git", branch: "main"
 
 gem "dry-initializer", "~> 3.1"
 gem "meta-tags", "~> 2.20"
