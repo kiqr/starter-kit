@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/kiqr/kiqr.git
-  revision: 608c48b26375b86b6ea6935f8a886eef6e086a4d
+  revision: 6f170f5fde5749c0291588f29236adc3b1f12317
   branch: main
   specs:
     kiqr (0.1.0)
