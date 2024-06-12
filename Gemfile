@@ -48,6 +48,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem "kiqr", git: "https://github.com/kiqr/kiqr.git", branch: "main"
+gem "kiqr-components", git: "https://github.com/kiqr/kiqr-components.git", branch: "main"
 
 gem "dry-initializer", "~> 3.1"
 gem "meta-tags", "~> 2.20"
