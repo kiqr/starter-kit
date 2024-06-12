@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/kiqr/kiqr-components.git
-  revision: 4d9215bb75cd1bc047b8b6efe48445470a5e9811
+  revision: 4f4c25105a96d6095de8373ae6ae278e4597c9d9
   branch: main
   specs:
     kiqr-components (0.1.0)
@@ -319,7 +319,7 @@ GEM
       psych (>= 4.0.0)
     redcarpet (3.6.0)
     regexp_parser (2.9.2)
-    reline (0.5.8)
+    reline (0.5.9)
       io-console (~> 0.5)
     responders (3.1.1)
       actionpack (>= 5.2)
