@@ -7,8 +7,8 @@ Rails.application.load_tasks
 Rake::Task["default"].clear
 
 namespace :lint do
-  task :standard do
-    sh "bundle exec standardrb"
+  task :rubocop do
+    sh "bundle exec rubocop"
   end
 
   task :erb do
@@ -19,6 +19,6 @@ end
 task :default do
   Rake::Task["test"].invoke
   Rake::Task["test:system"].invoke
-  Rake::Task["lint:standard"].invoke
+  Rake::Task["lint:rubocop"].invoke
   Rake::Task["lint:erb"].invoke
 end
