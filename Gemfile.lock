@@ -1,9 +1,9 @@
 GIT
-  remote: https://github.com/kiqr/kiqr-components.git
-  revision: 261823026b030261613266a29f0b60379872d75b
+  remote: https://github.com/kiqr/irelia.git
+  revision: a90aad8d8b51101d2791db803d9aa7b54e33e7ea
   branch: main
   specs:
-    kiqr-components (0.1.0)
+    irelia (0.1.0)
       dry-initializer (~> 3.1)
       lookbook (~> 2.3.1)
       view_component (~> 3.12)
@@ -327,7 +327,7 @@ GEM
     rexml (3.3.0)
       strscan
     rotp (6.3.0)
-    rouge (4.2.1)
+    rouge (4.3.0)
     rqrcode (2.2.0)
       chunky_png (~> 1.0)
       rqrcode_core (~> 1.0)
@@ -465,9 +465,9 @@ DEPENDENCIES
   factory_bot_rails (~> 6.4.3)
   faker
   importmap-rails
+  irelia!
   jbuilder
   kiqr!
-  kiqr-components!
   letter_opener_web (~> 2.0)
   meta-tags (~> 2.20)
   puma (>= 5.0)
